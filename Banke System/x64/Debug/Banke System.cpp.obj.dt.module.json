@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "Banke System\\x64\\Debug\\Banke System.obj",
+            "outputs": [
+                "Banke System\\x64\\Debug\\Banke System.cpp.obj.dt.module.json",
+                "Banke System\\x64\\Debug\\Banke System.cpp.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}

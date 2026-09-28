@@ -38,9 +38,8 @@ protected:
         if (!CurrentUser.CheckAccessPermission(Permission))
         {
             cout << "\n\t\t\t\t\t______________________________________\n\n";
-            cout << "\n\n\t\t\t\t\t  Sorry Not  Parmations  Access System.";
-
-            cout << "\n\n\t\t\t\t\t  Access Denied! Contact your Admin.";
+            cout << "\n\n\t\t\t\t\t  Sorry Not  Parmations  Access System .";
+            cout << "\n\n\t\t\t\t\t  Access Denied! Contact your Admin .";
             cout << "\n\t\t\t\t\t______________________________________\n\n";
             return false;
         }

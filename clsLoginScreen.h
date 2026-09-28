@@ -30,8 +30,8 @@ private:
                     FalidLoginCount++;
 
                     cout << "\nInvlaid Username/Password!\n";
-                    cout << "You have " << (3 - FalidLoginCount) << " attempt(s) left before the program exits. \n";
-                    cout << "Trails To Login \n";
+                    cout << " You have " << (3 - FalidLoginCount) << " attempt(s) left before the program exits. \n";
+                    cout << "\tTrails To Login \n";
 
                 }
                 if (FalidLoginCount == 3)
@@ -40,10 +40,10 @@ private:
                     return false;
                 }
                 cout << "\n";
-                cout << "\t\tPleas Enter Username  ? \n";
+                cout << "\n\t\tPleas Enter Username  ? \n";
                 cout << "\t\t"; cin >> Username;
                 cout << "\t\t Pleas Enter Password  ? \n";
-                cout << "\t\t"; cin >> Password;
+                cout << "\n\t\t"; cin >> Password;
 
                 CurrentUser = clsUser::Find(Username, Password);
 
@@ -65,8 +65,10 @@ public:
 
     static bool ShowLoginScreen()
     {
+
         system("cls");
-        _DrawScreenHeader("\tLogin Screen");
+
+        _DrawScreenHeader("\t\tLogin Screen");
 
       return   _Login();
     }
